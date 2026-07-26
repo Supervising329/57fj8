@@ -16,8 +16,8 @@
   --shadow: 0 18px 45px rgba(31, 73, 34, 0.14);
   --radius: 8px;
   --max-width: 1180px;
-  --hero-photo: url("assets/images/green-horizon-hero.jpg");
-  --page-photo: url("assets/images/clean-south-shore-garden.jpg");
+  --hero-photo: url("green-horizon-hero.jpg");
+  --page-photo: url("clean-south-shore-garden.jpg");
 }
 
 * {

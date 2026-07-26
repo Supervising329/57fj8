@@ -26,7 +26,7 @@ if (!document.querySelector(".mobile-actions")) {
 document.querySelectorAll("img").forEach((image) => {
   image.addEventListener("error", () => {
     if (!image.src.includes("clean-south-shore-garden.jpg")) {
-      image.src = "assets/images/clean-south-shore-garden.jpg";
+      image.src = "clean-south-shore-garden.jpg";
       image.alt = image.alt || "Clean professionally landscaped garden";
     }
   }, { once: true });
